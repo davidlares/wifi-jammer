@@ -48,5 +48,5 @@ if __name__ == "__main__":
     # jamming process
     while True:
         for bssid in bssids:
-            #print("Jamming on %s" % bssid)
-            #jam(bssid)
+            print("Jamming on %s" % bssid)
+            jam(bssid)
