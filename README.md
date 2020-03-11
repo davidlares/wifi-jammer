@@ -2,6 +2,8 @@
 
 This script represents an easy way to generate a Wifi Network Jammer with Python and other 3rd party tools. This performs a network selection and then sends packets with certain characteristics (check the `RadioTop` layer on 802.11 norms) and with `DeAuth` instructions against your router in order block internet connection to the whole network.
 
+A good resource for understanding more about the `RadioTop` packet can be found [here](http://wifinigel.blogspot.com/2013/11/what-are-radiotap-headers.html):
+
 ## Setup
 
 The network interface should be in `Monitor mode`. You will need to first, shutdown down for Wifi interface `iwconfig <iface> down`,  then change the configuration like ` iwconfig <iface> mode monitor`
