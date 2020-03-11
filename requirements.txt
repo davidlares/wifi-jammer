@@ -1,0 +1,7 @@
+packaging==20.3
+pbkdf2==1.3
+pyparsing==2.4.6
+scapy==2.4.3
+six==1.14.0
+wifi==0.3.8
+wireless==0.3.3
